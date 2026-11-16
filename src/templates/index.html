@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Laskuri</title>
@@ -20,6 +20,12 @@
   <form action="/decrement" method="POST">
     <button type="submit">
       Vähennä
+    </button>
+  </form>
+  <form action="/set_value" method="POST">
+    <input type="number" name="new_value" placeholder="Syötä uusi arvo">
+    <button type="submit">
+      Aseta arvo
     </button>
   </form>
 </body>
